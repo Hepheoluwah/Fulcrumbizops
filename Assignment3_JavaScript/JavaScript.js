@@ -4,8 +4,8 @@ const createDatabaseSchema = () => {
   // Create a connection to the MySQL database
   const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'your-username',
-    password: 'your-password',
+    user: 'username',
+    password: 'password',
     multipleStatements: true
   });
 
